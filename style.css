@@ -22,3 +22,22 @@ font-size: 20px;
 color: black;
 padding: 10px;
 }
+section{
+    flex-direction: column;
+}
+.cartao{
+    width: 260px;
+    height: 200px;
+}
+.cartao-frente{
+background-color: blue;
+position: absolute;
+border-radius: solid 12px;
+border: solid 5px grey;
+}
+.cartao-verso{
+background-color: red;
+position: absolute;
+border-radius: 12px;
+border: solid 5px grey;
+}
